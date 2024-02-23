@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(font/OpenSans-Regular.ttf) format(TrueType);
+}
+
+@font-face {
+    font-family:"Slabo 27px" ;
+    src: url(font/Slabo27px-Regular.ttf) format(TrueType);
+}
+body{
+    background-image: url("img/fond.png");
+}
+
+article{
+    background-color: rgb(37, 179, 180);
+    border: 3px solid teal;
+}
+.example{
+    width: 700px;
+    margin: auto;
+}
+p{
+        width: 700px;
+        margin:auto;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 0.8em;
+}
+h1{
+    font-family: "Slabo 27px";
+    font-size: 2.5em;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+}
+nav a
+{
+font-size: 1em;
+color: white;
+padding-bottom : 3px;
+text-decoration: none;
+text-align: center;
+}
+nav a:hover
+{
+color:blue;
+border-bottom: 3px solid black;
+text-align: center;
+
+}
+div img{
+    border-radius: 50%;
+}
+.jour{
+    color: rgb(37, 179, 180); 
+}
+
+h3{
+    font-family: "Slabo 27px";
+    text-align: left;
+    
+}
+div{ 
+    background-color: rgb( 182 222 220);
+    margin: auto;
+    width: 700px
+    
+}
+div img{ 
+        border-radius: 50%;
+        float: left;
+}
+
+div p{ 
+    text-align: left;
+    font-family: "Open Sans";
+}
+aside p{ 
+    text-align: right;
+}
+button{ 
+    background-color: blue;
+}
+backr

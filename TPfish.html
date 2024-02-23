@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(img/flowers.png)  ;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .birthday-text {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .love-text {
+        font-size: 24px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .heart {
+        animation: heartbeat 1s infinite;
+    }
+
+
+
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="birthday-text">Happy Birthday!</h1>
+    <p class="love-text">My dearest [Girlfriend's Name],</p>
+    <p class="love-text">On your special day, I just want to express my deepest love for you. You mean the world to me, and I feel incredibly blessed to have you in my life. Happy Birthday, my love!</p>
+    <span class="heart" style="font-size: 48px; color: red;">&#10084;</span>
+</div>
+</body>
+</html>
